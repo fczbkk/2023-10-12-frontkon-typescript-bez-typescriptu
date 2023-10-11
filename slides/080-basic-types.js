@@ -22,4 +22,3 @@ function subtract (a, b) {
 function add (a, b) {
   return Number(a) + Number(b)
 }
-

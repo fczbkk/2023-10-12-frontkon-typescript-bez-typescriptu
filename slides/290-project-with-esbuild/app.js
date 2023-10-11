@@ -9,4 +9,4 @@ function log(message, level) {
 }
 log('this is an error', LOG_LEVEL.ERROR);
 log('this is an error', 'ERROR');
-// log('this is an error', 'x')
+log('this is an error', 'x');

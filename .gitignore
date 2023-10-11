@@ -1,2 +1,4 @@
 .idea
 /node_modules/
+/slides/290-project-with-esbuild/node_modules/
+/slides/310-type-definitions-from-jsdoc/node_modules/
