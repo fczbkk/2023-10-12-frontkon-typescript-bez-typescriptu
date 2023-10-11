@@ -2,3 +2,5 @@
 /node_modules/
 /slides/290-project-with-esbuild/node_modules/
 /slides/310-type-definitions-from-jsdoc/node_modules/
+/slides/320-project-with-documentation/docs/
+/slides/320-project-with-documentation/node_modules/
