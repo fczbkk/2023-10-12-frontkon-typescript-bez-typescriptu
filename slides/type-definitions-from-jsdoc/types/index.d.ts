@@ -4,16 +4,11 @@
  * @param {string | number} b
  * @returns {string | number}
  */
-export function add(a, b) {
-    return a + b;
-}
-
+export function add(a: string | number, b: string | number): string | number;
 /**
  * Subtracts two numbers.
  * @param {number} a
  * @param {number} b
  * @returns {number}
  */
-export function subtract(a, b) {
-    return a - b;
-}
+export function subtract(a: number, b: number): number;

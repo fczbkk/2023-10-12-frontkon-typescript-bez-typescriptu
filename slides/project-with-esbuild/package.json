@@ -1,0 +1,13 @@
+{
+  "name": "@fczbkk/project-with-esm",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "esbuild app.ts --outfile=app.js --bundle --watch",
+    "build": "tsc app.ts --target esnext --outfile app.js"
+  },
+  "devDependencies": {
+    "esbuild": "^0.19.4",
+    "typescript": "^5.2.2"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "name": "@fczbkk/multirepo-package1",
+  "name": "@fczbkk/multirepo-package2",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -7,5 +7,8 @@
   },
   "devDependencies": {
     "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@fczbkk/multirepo-package1": "^1.0.0"
   }
 }

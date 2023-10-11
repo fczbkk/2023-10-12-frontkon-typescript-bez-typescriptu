@@ -1,0 +1,13 @@
+{
+  "name": "@fczbkk/project_with_documentation",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "doc:readme": "documentation readme ./index.js --section='Documentation'",
+    "doc:jsdoc": "documentation build ./index.js -f html --github -o docs",
+    "doc": "npm run doc:readme && npm run doc:jsdoc"
+  },
+  "devDependencies": {
+    "documentation": "^14.0.2"
+  }
+}

@@ -1,17 +1,3 @@
-enum LOG_LEVEL_BAD {
-  DEBUG,
-  INFO,
-  WARN,
-  ERROR,
-}
-
-enum LOG_LEVEL_BETTER {
-  DEBUG = 'DEBUG',
-  INFO = 'INFO',
-  WARN = 'WARN',
-  ERROR = 'ERROR',
-}
-
 const LOG_LEVEL = {
   DEBUG: 'DEBUG',
   INFO: 'INFO',

@@ -1,6 +1,17 @@
 /**
- * @typedef {import('./typedefs.js').LogLevel} LogLevel
+ * @typedef {'DEBUG' | 'INFO' | 'WARN' | 'ERROR'} LogLevel
  */
+
+/**
+ * @readonly
+ * @enum {LogLevel}
+ */
+const LOG_LEVEL = Object.freeze({
+  DEBUG: 'DEBUG',
+  INFO: 'INFO',
+  WARN: 'WARN',
+  ERROR: 'ERROR',
+})
 
 /**
  * Output message and level indicator into the console.
@@ -12,5 +23,6 @@ function log(message, level) {
 }
 
 
+log('this is an error', LOG_LEVEL.ERROR)
 log('this is an error', 'ERROR')
 log('this is an error', 'xxx')

@@ -2,12 +2,6 @@
   "name": "@fczbkk/multirepo-package2",
   "version": "1.0.0",
   "private": true,
-  "scripts": {
-    "dev": "tsc index.ts --target esnext --outfile index.js --watch"
-  },
-  "devDependencies": {
-    "typescript": "^5.2.2"
-  },
   "dependencies": {
     "@fczbkk/multirepo-package1": "^1.0.0"
   }

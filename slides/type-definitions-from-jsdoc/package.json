@@ -1,0 +1,13 @@
+{
+  "name": "@fczbkk/type-definitions-from-jsdoc",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "types": "tsc -p tsconfig.json"
+  },
+  "main": "index.js",
+  "types": "types/index.d.ts",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
