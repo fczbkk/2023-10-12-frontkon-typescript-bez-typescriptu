@@ -4,3 +4,5 @@
 /slides/310-type-definitions-from-jsdoc/node_modules/
 /slides/320-project-with-documentation/docs/
 /slides/320-project-with-documentation/node_modules/
+/slides/270-multirepo-project-ts/package1/node_modules/
+/slides/270-multirepo-project-ts/package2/node_modules/
