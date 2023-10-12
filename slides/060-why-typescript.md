@@ -3,3 +3,4 @@
 - červená vlnovka
 - tooltipy a popupy
 - enumy (optional)
+- generovanie .d.ts
